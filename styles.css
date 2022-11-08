@@ -1,0 +1,58 @@
+
+/* STEP 1 */
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+
+  /* STEP 2 */
+  input, textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+/* STEP 3 */
+label {
+    display: block;
+    margin: 15px 0 0 0;
+    /* margin: 0.5rem 0; */
+}
+
+/* STEP 4 */
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+/* STEP 5 */
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+  /* STEP 6 */
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+
+  /* STEP 7 */
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
