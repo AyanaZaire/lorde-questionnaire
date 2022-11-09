@@ -64,15 +64,24 @@ label {
   }
 
   /* STEP 7 */
-  h1, p {
+  input[type="submit"] {
+    display: block;
+    /* width: 60%; */
     margin: 1em auto;
-    text-align: center;
-    max-width: 600px;
+    height: 2.3em;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #000;
+    border-color: black;
+    max-width: 500px;
+    font-family: WremenaLight;
   }
 
-  /* INTERMEDIATE CSS */
-
-  /* STEP 1: PILL BUTTON */
-  /* button {
-
-  } */
+  /* STEP 8 */
+  .heading {
+    margin: 1em auto;
+    text-align: center;
+    max-width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }

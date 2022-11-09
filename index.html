@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="styles.css">
 
-<h1 id="title">The Audre Lorde Questionnaire To Oneself</h1>
-<p id="description">The Audre Lorde Questionnaire to Oneself was adapted from “The Transformation of Silence into Language and Action,” collected in The Cancer Journals. This resource was created by Divya Victor for students of her Creative Writing courses at Nanyang Technological University in January 2016.</p>
+<h1 id="title" class="heading">The Audre Lorde Questionnaire To Oneself</h1>
+<p id="description" class="heading">The Audre Lorde Questionnaire to Oneself was adapted from “The Transformation of Silence into Language and Action,” collected in The Cancer Journals. This resource was created by Divya Victor for students of her Creative Writing courses at Nanyang Technological University in January 2016.</p>
 <form id="survey-form">
     <fieldset>
         <label for="entry">Entry No.</label>
@@ -22,15 +22,17 @@
         <textarea name="truth" id="" cols="30" rows="5"></textarea>
     </fieldset>
     <fieldset>
-        <label for="mood"><input type="checkbox" name="mood" class="inline"> Mood</label>
-        <label for=""><input type="radio" class="inline" id=""> Indoor or Outdoor</label>
-        <label for="erotic">Erotic Yes?</label>
-        <select name="erotic" id="">
+        <p>Current Mood</p>
+        <label for="calm"><input type="checkbox" name="calm" class="inline"> Calm</label>
+        <label for="happy"><input type="checkbox" name="happy" class="inline"> Happy</label>
+        <label for="sad"><input type="checkbox" name="sad" class="inline"> Sad</label>
+        <label for="erotic">Is your current work engaging your <a href="https://stilluntitledproject.files.wordpress.com/2014/11/audre-lorde-sister-outsider-the-uses-of-the-erotic-1978.pdf">"Erotic Yes"</a>?</label>
+        <select name="erotic" id="erotic">
             <option value="yes">Yes</option>
             <option value="no">No</option>
         </select>
-        <label for="erotic-yes">Optional Elaboration</label>
-        <textarea name="erotic-yes" id="" cols="30" rows="5"></textarea>
+        <label for="elaboration">Optional Elaboration</label>
+        <textarea name="elaboration" id="elaboration" cols="30" rows="5"></textarea>
     </fieldset>
     <input type="submit" value="Submit Questionnaire">
 </form>
