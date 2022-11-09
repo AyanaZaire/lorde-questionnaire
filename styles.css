@@ -1,12 +1,19 @@
+@font-face {
+  font-family: WremenaLight;
+  src: url(wremena-light.otf);
+}
 
 /* STEP 1 */
 body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: #000000;
-    color: #f5f6f7;
-    font-family: Tahoma;
+    background-color: #fff;
+    background-image: url(lorde-background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000;
+    font-family: WremenaLight;
     font-size: 16px;
   }
 
@@ -15,6 +22,11 @@ body {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 2em;
+  border-radius: 16px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
 }
 
 /* STEP 3 */
@@ -44,7 +56,7 @@ label {
   fieldset {
     border: none;
     padding: 2rem 0;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #000;
   }
   
   fieldset:last-of-type {
@@ -55,4 +67,12 @@ label {
   h1, p {
     margin: 1em auto;
     text-align: center;
+    max-width: 600px;
   }
+
+  /* INTERMEDIATE CSS */
+
+  /* STEP 1: PILL BUTTON */
+  /* button {
+
+  } */
