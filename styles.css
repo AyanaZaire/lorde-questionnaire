@@ -64,7 +64,7 @@ label {
   }
 
   /* STEP 7 */
-  input[type="submit"] {
+  button {
     display: block;
     /* width: 60%; */
     margin: 1em auto;
