@@ -19,23 +19,11 @@ body {
     font-size: 16px;
   }
 
-  @media (min-width:320px)  { 
-    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+  @media (min-width: 320px) and (max-width: 1024px)  { 
     body {
-      background-position: bottom;
-    }
-  }
-
-  @media (min-width:600px)  { 
-    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-    body {
-      background-position: bottom;
-    }
-  }
-
-  @media (min-width:801px)  { 
-    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-    body {
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: contain;
       background-position: bottom;
     }
   }
