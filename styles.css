@@ -10,8 +10,10 @@ body {
     margin: 0;
     background-color: #fff;
     background-image: url(lorde-background.png);
-    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
     color: #000;
     font-family: WremenaLight;
     font-size: 16px;
