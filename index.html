@@ -1,40 +1,48 @@
-<link rel="stylesheet" href="styles.css">
-
-<h1 id="title" class="heading">The Audre Lorde Questionnaire To Oneself</h1>
-<p id="description" class="heading">The Audre Lorde Questionnaire to Oneself was adapted from “The Transformation of Silence into Language and Action,” collected in The Cancer Journals. This resource was created by Divya Victor for students of her Creative Writing courses at Nanyang Technological University in January 2016.</p>
-<form target="_blank" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSecKsJS_W9xZfKP6LkCcFHan-zYCYniSrM-Hko9a0cDS2p4fQ/formResponse">
-    <fieldset>
-        <label for="email">Email</label>
-        <input type="email" name="emailAddress" id="email" required>
-        <label for="date-time">Date </label>
-        <input type="datetime-local" name="entry.2144860243" id="date-time">
-        <label for="location">Location</label>
-        <input type="text" name="entry.1601136869" id="location">
-    </fieldset>
-    <fieldset>
-        <label for="words">What are the words you do not have yet? [Or, “for what do you not have words, yet?”]</label>
-        <textarea name="entry.633660453" id="words" cols="30" rows="5"></textarea>
-        <label for="need">What do you need to say? [List as many things as necessary]</label>
-        <textarea name="entry.1086485504" id="need" cols="30" rows="5"></textarea>
-        <label for="tyrannies">“What are the tyrannies you swallow day by day and attempt to make your own, until you will sicken and die of them, still in silence?”  [List as many as necessary today. Then write a new list tomorrow. And the day after.]</label>
-        <textarea name="entry.262240073" id="tyrannies" cols="30" rows="5"></textarea>
-        <label for="truth">If we have been “socialized to respect fear more than our own needs for language and definition”, ask yourself: “What’s the worst that could happen to me if I tell this truth?”* [So, answer this today. And every day.]</label>
-        <textarea name="entry.1198347781" id="truth" cols="30" rows="5"></textarea>
-    </fieldset>
-    <fieldset>
-        <p>Current Mood</p>
-        <label for="calm"><input type="checkbox" name="entry.975934352" id="calm" class="inline" value="Calm"> Calm</label>
-        <label for="happy"><input type="checkbox" name="entry.975934352" class="inline" id="happy" value="Happy"> Happy</label>
-        <label for="sad"><input type="checkbox" name="entry.975934352" class="inline" id="sad" value="Sad"> Sad</label>
-        <label for="other"><input type="checkbox" name="entry.975934352" class="inline" id="other" value="Other"> Other</label>
-
-        <label for="erotic">Is your current work engaging your <a href="https://stilluntitledproject.files.wordpress.com/2014/11/audre-lorde-sister-outsider-the-uses-of-the-erotic-1978.pdf">"Erotic Yes"</a>?</label>
-        <select id="erotic" name="entry.1642033092">
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
-        </select>
-        <label for="elaboration">Optional Elaboration</label>
-        <textarea name="entry.511359843" id="elaboration" cols="30" rows="5"></textarea>
-    </fieldset>
-    <button onclick="window.location.href = 'file:///Users/acotton/Documents/seeda/seeda-school/responsive-web-design/survey-form/index.html';" type="submit">Submit Questionnaire</button>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lorde Questionnaire</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1 id="title" class="heading">The Audre Lorde Questionnaire To Oneself</h1>
+        <p id="description" class="heading">The Audre Lorde Questionnaire to Oneself was adapted from “The Transformation of Silence into Language and Action,” collected in The Cancer Journals. This resource was created by Divya Victor for students of her Creative Writing courses at Nanyang Technological University in January 2016.</p>
+        <form target="_blank" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSecKsJS_W9xZfKP6LkCcFHan-zYCYniSrM-Hko9a0cDS2p4fQ/formResponse">
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" name="emailAddress" id="email" required>
+                <label for="date-time">Date </label>
+                <input type="datetime-local" name="entry.2144860243" id="date-time">
+                <label for="location">Location</label>
+                <input type="text" name="entry.1601136869" id="location">
+            </fieldset>
+            <fieldset>
+                <label for="words">What are the words you do not have yet? [Or, “for what do you not have words, yet?”]</label>
+                <textarea name="entry.633660453" id="words" cols="30" rows="5"></textarea>
+                <label for="need">What do you need to say? [List as many things as necessary]</label>
+                <textarea name="entry.1086485504" id="need" cols="30" rows="5"></textarea>
+                <label for="tyrannies">“What are the tyrannies you swallow day by day and attempt to make your own, until you will sicken and die of them, still in silence?”  [List as many as necessary today. Then write a new list tomorrow. And the day after.]</label>
+                <textarea name="entry.262240073" id="tyrannies" cols="30" rows="5"></textarea>
+                <label for="truth">If we have been “socialized to respect fear more than our own needs for language and definition”, ask yourself: “What’s the worst that could happen to me if I tell this truth?”* [So, answer this today. And every day.]</label>
+                <textarea name="entry.1198347781" id="truth" cols="30" rows="5"></textarea>
+            </fieldset>
+            <fieldset>
+                <p>Current Mood</p>
+                <label for="calm"><input type="checkbox" name="entry.975934352" id="calm" class="inline" value="Calm"> Calm</label>
+                <label for="happy"><input type="checkbox" name="entry.975934352" class="inline" id="happy" value="Happy"> Happy</label>
+                <label for="sad"><input type="checkbox" name="entry.975934352" class="inline" id="sad" value="Sad"> Sad</label>
+                <label for="other"><input type="checkbox" name="entry.975934352" class="inline" id="other" value="Other"> Other</label>
+        
+                <label for="erotic">Is your current work engaging your <a href="https://stilluntitledproject.files.wordpress.com/2014/11/audre-lorde-sister-outsider-the-uses-of-the-erotic-1978.pdf">"Erotic Yes"</a>?</label>
+                <select id="erotic" name="entry.1642033092">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label for="elaboration">Optional Elaboration</label>
+                <textarea name="entry.511359843" id="elaboration" cols="30" rows="5"></textarea>
+            </fieldset>
+            <button onclick="window.location.href = 'file:///Users/acotton/Documents/seeda/seeda-school/responsive-web-design/survey-form/index.html';" type="submit">Submit Questionnaire</button>
+        </form>  
+    </body>
+</html>
